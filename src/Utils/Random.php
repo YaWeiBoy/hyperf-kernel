@@ -7,12 +7,12 @@ declare (strict_types=1);
  * @link
  */
 
-namespace Zyw\HyperfKernel\Utils;
+namespace Zywacd\HyperfKernel\Utils;
 /**
  * 随机码生成
  *
  * @author
- * @package Zyw\HyperfKernel\Utils
+ * @package Zywacd\HyperfKernel\Utils
  */
 class Random
 {

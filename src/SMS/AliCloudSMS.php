@@ -7,7 +7,7 @@ declare (strict_types=1);
  * @link
  */
 
-namespace Zyw\HyperfKernel\SMS;
+namespace Zywacd\HyperfKernel\SMS;
 
 use AlibabaCloud\Client\AlibabaCloud;
 use AlibabaCloud\Client\Exception\ClientException;
@@ -15,7 +15,7 @@ use AlibabaCloud\Client\Exception\ServerException;
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\Utils\Codec\Json;
 use Psr\Container\ContainerInterface;
-use Zyw\HyperfKernel\SMS\Exception\SMSException;
+use Zywacd\HyperfKernel\SMS\Exception\SMSException;
 
 /**
  * 阿里云短信服务
@@ -25,8 +25,8 @@ use Zyw\HyperfKernel\SMS\Exception\SMSException;
  * @property string $regionId
  * @property string $host
  * @property string $signName
- * @author zyw
- * @package Zyw\HyperfKernel\SMS
+ * @author zywacd
+ * @package Zywacd\HyperfKernel\SMS
  */
 class AliCloudSMS implements SMSInterface
 {

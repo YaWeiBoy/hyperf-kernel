@@ -7,17 +7,17 @@ declare (strict_types=1);
  * @link https://dayiguo.com
  */
 
-namespace Zyw\HyperfKernel\SMS;
+namespace Zywacd\HyperfKernel\SMS;
 
 use Hyperf\Contract\ConfigInterface;
 use Psr\Container\ContainerInterface;
-use Zyw\HyperfKernel\SMS\Exception\SMSException;
+use Zywacd\HyperfKernel\SMS\Exception\SMSException;
 
 /**
  * 短信工厂
  *
  * @author
- * @package Zyw\HyperfKernel\SMS
+ * @package Zywacd\HyperfKernel\SMS
  */
 class SMSFactory
 {

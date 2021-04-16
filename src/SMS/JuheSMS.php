@@ -7,13 +7,13 @@ declare (strict_types=1);
  * @link
  */
 
-namespace Zyw\HyperfKernel\SMS;
+namespace Zywacd\HyperfKernel\SMS;
 
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\Guzzle\ClientFactory;
 use Hyperf\Utils\Codec\Json;
 use Psr\Container\ContainerInterface;
-use Zyw\HyperfKernel\SMS\Exception\SMSException;
+use Zywacd\HyperfKernel\SMS\Exception\SMSException;
 use Exception;
 
 /**
@@ -21,7 +21,7 @@ use Exception;
  *
  * @property string $key
  * @author 刘兴永(aile8880@qq.com)
- * @package Zyw\HyperfKernel\SMS
+ * @package Zywacd\HyperfKernel\SMS
  */
 class JuheSMS implements SMSInterface
 {

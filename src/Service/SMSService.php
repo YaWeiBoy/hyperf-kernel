@@ -7,21 +7,21 @@ declare (strict_types=1);
  * @link https://dayiguo.com
  */
 
-namespace Zyw\HyperfKernel\Service;
+namespace Zywacd\HyperfKernel\Service;
 
 use Psr\Container\ContainerInterface;
 use Psr\SimpleCache\CacheInterface;
 use Psr\SimpleCache\InvalidArgumentException;
-use Zyw\HyperfKernel\SMS\Exception\SMSException;
-use Zyw\HyperfKernel\SMS\Exception\SMSIntervalException;
-use Zyw\HyperfKernel\SMS\SMSFactory;
-use Zyw\HyperfKernel\SMS\SMSInterface;
+use Zywacd\HyperfKernel\SMS\Exception\SMSException;
+use Zywacd\HyperfKernel\SMS\Exception\SMSIntervalException;
+use Zywacd\HyperfKernel\SMS\SMSFactory;
+use Zywacd\HyperfKernel\SMS\SMSInterface;
 
 /**
  * 短信服务
  *
  * @author
- * @package Zyw\HyperfKernel\Service
+ * @package Zywacd\HyperfKernel\Service
  */
 class SMSService
 {

@@ -5,15 +5,15 @@
  * @link
  */
 
-namespace Zyw\HyperfKernel\SMS;
+namespace Zywacd\HyperfKernel\SMS;
 
-use Zyw\HyperfKernel\SMS\Exception\SMSException;
+use Zywacd\HyperfKernel\SMS\Exception\SMSException;
 
 /**
  * 短信工厂抽象类
  *
- * @author zyw
- * @package Zyw\HyperfKernel\SMS
+ * @author zywacd
+ * @package Zywacd\HyperfKernel\SMS
  */
 interface SMSInterface
 {

@@ -1,16 +1,16 @@
 {
-    "name": "zyw/hyperf-kernel",
+    "name": "zywacd/hyperf-kernel",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "php",
         "hyperf",
-        "Zyw"
+        "Zywacd"
     ],
     "description": "",
     "autoload": {
         "psr-4": {
-            "Zyw\\HyperfKernel\\": "src/"
+            "Zywacd\\HyperfKernel\\": "src/"
         },
         "files": [
             "src/functions.php"
@@ -48,7 +48,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Zyw\\HyperfKernel\\ConfigProvider"
+            "config": "Zywacd\\HyperfKernel\\ConfigProvider"
         }
     }
 }

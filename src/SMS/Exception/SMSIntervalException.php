@@ -7,12 +7,12 @@ declare (strict_types=1);
  * @link
  */
 
-namespace Zyw\HyperfKernel\SMS\Exception;
+namespace Zywacd\HyperfKernel\SMS\Exception;
 /**
  * SMSIntervalException
  *
  * @author 刘兴永(aile8880@qq.com)
- * @package Zyw\HyperfKernel\Exception
+ * @package Zywacd\HyperfKernel\Exception
  */
 class SMSIntervalException extends \RuntimeException
 {
