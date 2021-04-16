@@ -1,0 +1,11 @@
+/vendor/
+composer.lock
+*.cache
+*.log
+.DS_Store
+/.idea
+/tests
+phpunit.xml
+.php_cs
+.phpstorm.meta.php
+.travis.yml
